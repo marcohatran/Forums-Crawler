@@ -1,4 +1,4 @@
-# RSL_Crawl
+# Forums Crawler
 A simple crawler for extracting all the topics and posts along with the user profile from the forum [Comodo](https://forums.comodo.com/).
 
 **Topic URLS**
