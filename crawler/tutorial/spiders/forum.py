@@ -3,8 +3,8 @@ import scrapy
 
 class MalwareSpider(scrapy.Spider):
     name = 'forum'
-    allowed_domains = ['forums.comodo.com']
-    start_urls = ['https://forums.comodo.com/?af=9557']
+    allowed_domains = ['f319.com']
+    start_urls = ['http://f319.com/']
 
     def parse(self, response):
         for content in response.css("td[class='info']"):
